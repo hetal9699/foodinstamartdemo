@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food delivery App </title>
+    <link rel="stylesheet" href="css/fooddelivery.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-info">
+    <div class="container-fluid">
+        <div class="maxwidth mx-auto   bg-white ">
+            <div class="container-fluid zin2 border-bottom position-sticky top-0 bg-white color_lightgray ">
+                <div class=" row justify-content-between p-2 ">
+                    <div class=" col-8 px-2 ">
+                        <button class="btn  text-secondary  " type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="row d-flex ">
+
+                                <div class="col-1 p-0">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+
+                                </div>
+                                <div class="col p-0">
+                                    <p class="p-0 m-0 text-start fw-bold color_darkgray fontsize18  fs-6 ps-1">Work</p>
+
+                                </div>
+                                <p class="p-0 m-0 text-start  text-secondary fontsize13 ps-1">Near Sayajiguj ploice
+                                    station..</p>
+
+                            </div>
+                        </button>
+
+
+                    </div>
+                    <div class="col p-0 text-end pt-3">
+                        <i class="fa-brands fa-digital-ocean fs-3 color_lightgray"></i>
+                        <span class="fontsize13 fw-bold color_darkgray">Offers</span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid py-3 ">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/restaurants.webp" class="img-fluid" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/instamart.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="d-flex">
+                    <img src="images/thumbs up.png" class=" pe-2 iconimg" alt="">
+                    <h3 class="fontsize20 fw-bold">Top Picks For You</h3>
+
+                </div>
+                <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block  w-100">
+                                <div class="row">
+                                    <div class="toppickheight col">
+                                        <div class="col-12">
+                                            <img src="images/naturaljuice.webp"
+                                                class="toppickimages rounded-4 position-absolute" alt="">
+                                            <div
+                                                class=" text-center w-75 color_orange fw-bold position-relative rounded-3 bg-light  positiontoppicks">
+
+                                                <span class="fontsize13 m-0 p-0  ">
+                                                    50% OFF
+                                                </span>
+                                                <p class="fontsize7px m-0 p-0">UPTP 100RS</p>
+
+
+                                            </div>
+                                            <div class="toppickfooter fontsize14 ps-2">
+                                                <p class="p-0 m-0 color_darkgray">Natural Juice</p>
+                                                <p class="p-0 m-0 color_lightgray">30 mins</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col toppickheight">
+                                        <div class="col-12">
+                                            <img src="images/naturaljuice.webp"
+                                                class="toppickimages rounded-4 position-absolute" alt="">
+                                            <div
+                                                class=" text-center color_orange w-75 fw-bold position-relative rounded-3 bg-light  positiontoppicks">
+
+                                                <span class="fontsize13 m-0 p-0  ">
+                                                    50% OFF
+                                                </span>
+                                                <p class="fontsize7px m-0 p-0">UPTP 100RS</p>
+
+
+                                            </div>
+                                            <div class="toppickfooter fontsize14 ps-2">
+                                                <p class="p-0 m-0 color_darkgray">Natural Juice</p>
+                                                <p class="p-0 m-0 color_lightgray">30 mins</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col toppickheight">
+                                        <div class="col-12">
+                                            <img src="images/naturaljuice.webp"
+                                                class="toppickimages rounded-4 position-absolute" alt="">
+                                            <div
+                                                class=" w-75 text-center color_orange fw-bold position-relative rounded-3 bg-light  positiontoppicks">
+
+                                                <span class="fontsize13 m-0 p-0  ">
+                                                    50% OFF
+                                                </span>
+                                                <p class="fontsize7px m-0 p-0">UPTP 100RS</p>
+
+
+                                            </div>
+                                            <div class="toppickfooter fontsize14 ps-2">
+                                                <p class="p-0 m-0 color_darkgray">Natural Juice</p>
+                                                <p class="p-0 m-0 color_lightgray">30 mins</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col toppickheight">
+                                        <div class="col-12">
+                                            <img src="images/naturaljuice.webp"
+                                                class="toppickimages rounded-4 position-absolute" alt="">
+                                            <div
+                                                class=" w-75 text-center color_orange fw-bold position-relative rounded-3 bg-light  positiontoppicks">
+
+                                                <span class="fontsize13 m-0 p-0  ">
+                                                    50% OFF
+                                                </span>
+                                                <p class="fontsize7px m-0 p-0">UPTP 100RS</p>
+
+
+                                            </div>
+                                            <div class="toppickfooter fontsize14 ps-2">
+                                                <p class="p-0 m-0 color_darkgray">Natural Juice</p>
+                                                <p class="p-0 m-0 color_lightgray">30 mins</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-block  w-100">
+                                    <div class="row">
+                                        <div class="toppickheight col">
+                                            <div class="col-12">
+                                                <img src="images/naturaljuice.webp"
+                                                    class="toppickimages rounded-4 position-absolute" alt="">
+                                                <div
+                                                    class=" text-center w-75 color_orange fw-bold position-relative rounded-3 bg-light  positiontoppicks">
+
+                                                    <span class="fontsize13 m-0 p-0  ">
+                                                        50% OFF
+                                                    </span>
+                                                    <p class="fontsize7px m-0 p-0">UPTP 100RS</p>
+
+
+                                                </div>
+                                                <div class="toppickfooter fontsize14 ps-2">
+                                                    <p class="p-0 m-0 color_darkgray">Natural Juice</p>
+                                                    <p class="p-0 m-0 color_lightgray">30 mins</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-block  w-100">
+                                    <div class="row">
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+            </div>
+            <div class="container-fluid  my-4 zin">
+                <h4 class="fontsize18 fw-bold color_darkgray">Today's Featured</h4>
+                <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/favstreetfood.webp" class="d-block w-100 rounded-2" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/pizzeria.webp" class="d-block w-100 rounded-2" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/chiness.webp" class="d-block w-100 rounded-2 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/chiness.webp" class="d-block w-100 rounded-2 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/vegitatian.webp" class="d-block w-100 rounded-2 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/enjoylightning.webp" class="d-block w-100 rounded-2 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/bestseller.webp" class="d-block w-100 rounded-2 " alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators pt-5 ">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active " aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-fluid p-0 my-5">
+                <h3 class="fontsize20 fw-bold color_darkgray py-3 ps-4">Offers For You</h3>
+                <div id="carouselExampleControls1" class="carousel slide" data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class=" d-flex mx-auto">
+
+                                <img src="images/ngjatt8hwriaytmugmqz.webp" class="offerimage" alt="...">
+                                <img src="images/offer2.webp" class="offerimage mx-3" alt="...">
+                                <img src="images/offer3.webp" class="offerimage" alt="...">
+
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex mx-auto">
+                                <img src="images/offer4.webp" class="offerimage" alt="...">
+                                <img src="images/offer4.webp" class="offerimage mx-3" alt="...">
+                                <img src="images/offer4.webp" class="offerimage" alt="...">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="d-flex">
+                    <img src="images/restaurantslogo.png" class=" pe-2 iconimg" alt="">
+                    <h3 class="fontsize20 fw-bold p-0 m-0">All Restaurants Nearby</h3>
+                </div>
+                <p class="fontsize16 color_lightgray m-0 p-0 ">Discover unique tastes near you</p>
+                <div class="container-fluid p-0 m-0">
+                    <div class="row pt-4">
+                        <div class="col-3 ">
+                            <img src="images/Frankie.jpg" class="w-100 restaurantimages rounded-2" alt="">
+                        </div>
+                        <div class="col pt-3  ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                Frankie
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.3</span>
+                                <span>.</span>
+                                <span>34mins</span>
+                                <span>.</span>
+                                <span>150rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">frankies..</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3">
+                            <img src="images/jagdish.webp" class="w-100 restaurantimages rounded-2" alt="">
+                        </div>
+                        <div class="col pt-3 ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                Jagdish Foods Pvt Ltd
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.4</span>
+                                <span>.</span>
+                                <span>21mins</span>
+                                <span>.</span>
+                                <span>250rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">Snacks</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3 ">
+                            <img src="images/chaaswala.webp" class="w-100 restaurantimages rounded-2" alt="">
+                        </div>
+                        <div class="col pt-3 ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                Chaaswala Fatejgunj
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5</span>
+                                <span>.</span>
+                                <span>25mins</span>
+                                <span>.</span>
+                                <span>120rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">Bravegers</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3 ">
+                            <img src="images/burgerking.webp" class="w-100 restaurantimages rounded-2" alt="">
+                            <div
+                                class=" text-center w-75 color_orange fw-bold position-relative rounded-3 bg-light respositions">
+
+                                <span class="fontsize13 m-0 p-0  ">
+                                    30% OFF
+                                </span>
+
+
+                            </div>
+                        </div>
+                        <div class="col pt-3 ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                Burger King
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.2</span>
+                                <span>.</span>
+                                <span>26mins</span>
+                                <span>.</span>
+                                <span>350rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">American</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3 ">
+                            <img src="images/honest.webp" class="w-100 restaurantimages rounded-2" alt="">
+                        </div>
+                        <div class="col pt-3 ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                Honest
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.0</span>
+                                <span>.</span>
+                                <span>30mins</span>
+                                <span>.</span>
+                                <span>250rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">Indian,Chinese,Snacks</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3">
+                            <img src="images/punjabi tadka.webp" class="w-100 h-100 img-fluid rounded-2" alt="">
+                        </div>
+                        <div class="col pt-3 ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                Punjabi Tadka
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.2</span>
+                                <span>.</span>
+                                <span>20mins</span>
+                                <span>.</span>
+                                <span>400rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">Punjabi</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3 ">
+                            <img src="images/pizzeria.webp" class="w-100 h-100 img-fluid rounded-2" alt="">
+                            <div
+                                class=" text-center w-75 color_orange fw-bold position-relative rounded-3 bg-light respositions">
+
+                                <span class="fontsize13 m-0 p-0  ">
+                                    20% OFF
+                                </span>
+
+
+                            </div>
+                        </div>
+                        <div class="col pt-3 ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                Pizzeria
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.4</span>
+                                <span>.</span>
+                                <span>40mins</span>
+                                <span>.</span>
+                                <span>500rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">Pizzas,Soup,Breads</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3 ">
+                            <img src="images/kansar.webp" class="w-100 h-100 img-fluid rounded-2" alt="">
+                        </div>
+                        <div class="col pt-3 ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                Kansar Gujarati Thali
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.2</span>
+                                <span>.</span>
+                                <span>20mins</span>
+                                <span>.</span>
+                                <span>400rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">Punjabi</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3 ">
+                            <img src="images/lamilano.webp" class="w-100 restaurantimages rounded-2" alt="">
+                            <div
+                                class=" text-center w-75 color_orange fw-bold position-relative rounded-3 bg-light respositions">
+
+                                <span class="fontsize13 m-0 p-0  ">
+                                    50% OFF
+                                </span>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col pt-3 ">
+                            <h4 class="fontsize16 fw-bold color_darkgray">
+                                La'Milano Pizza
+                            </h4>
+                            <div class="fontsize13 color_lightgray">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5</span>
+                                <span>.</span>
+                                <span>45mins</span>
+                                <span>.</span>
+                                <span>500rs for two</span>
+
+                            </div>
+                            <p class="fontsize14 color_lightgray">Italian</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row pt-5">
+                    <div class="col-3 ">
+                        <img src="images/goodies.jfif" class="w-100 restaurantimages rounded-2" alt="">
+                        <div
+                            class=" text-center w-75 color_orange fw-bold position-relative rounded-3 bg-light respositions">
+
+                            <span class="fontsize13 m-0 p-0  ">
+                                50% OFF
+                            </span>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col pt-3 ">
+                        <h4 class="fontsize16 fw-bold color_darkgray">
+                            Goodies
+                        </h4>
+                        <div class="fontsize13 color_lightgray">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.3</span>
+                            <span>.</span>
+                            <span>15mins</span>
+                            <span>.</span>
+                            <span>300rs for two</span>
+
+                        </div>
+                        <p class="fontsize14 color_lightgray">Cakes,bravegers,snacks</p>
+
+                    </div>
+
+                </div>
+                <button
+                    class=" border-0 bg_tomato py-3 px-5 w-100 rounded-2 text-white fontsize16 fw-bold my-4 ">SEE
+                    ALL</button>
+
+            </div>
+
+        </div>
+
+        <div>
+            <img src="images/liveforfood.webp" class="img-fluid" alt="">
+        </div>
+            <div class="container-fluid bg-light border-top border-secondary pt-4 ">
+                <div class="row ">
+                    <div class=" col footericon float-start">
+                        <a href="fooddeliver.html">
+                            <img src="images/swiggy-logo.webp" class="swiggyfootericon" alt="">
+                            <p class="text-secondary fs-6">Swiggy</p>
+                        </a>
+    
+                    </div>
+                    <div class=" col footericon float-start">
+                        <a href="food1.html">
+                            <i class="fa-solid fa-mug-hot text-black fs-4 text-black"></i>
+                            <p class="text-secondary fs-6">Food</p>
+                        </a>
+    
+                    </div>
+                    <div class="col footericon float-start ">
+                        <a href="instamart.html">
+                            <i class="fa-solid fa-basket-shopping fs-4 text-black"></i>
+                            <p class="text-secondary fs-6">Instamart</p>
+                        </a>
+    
+                    </div>
+                    <div class=" col footericon float-start">
+                        <a href="#gallery">
+                            <i class="fa-solid fa-gift fs-4 text-black"></i>
+                            <p class="text-secondary fs-6">Genie</p>
+                        </a>
+    
+                    </div>
+    
+                </div>
+                
+
+            </div>
+
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
